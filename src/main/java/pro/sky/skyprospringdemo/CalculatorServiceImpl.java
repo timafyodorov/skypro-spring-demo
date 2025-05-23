@@ -14,6 +14,7 @@ public class CalculatorServiceImpl {
         return num1 + " + " + num2 + " = " + res;
     }
 
+
     public String calculatorMinus(int num1, int num2) {
         int res = num1 - num2;
         return num1 + " - " + num2 + "  = " + res;
@@ -21,7 +22,7 @@ public class CalculatorServiceImpl {
 
     public String calculatorMultiply(int num1, int num2) {
         int res = num1 * num2;
-        return num1 + " * " + num2 + " = " + res;
+        return num1 + " * " + num2 + "=" + res;
     }
 
     public String calculatorDevide(int num1, int num2) {
