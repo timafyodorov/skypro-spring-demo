@@ -16,7 +16,7 @@ public class CalculatorServiceImpl {
 
     public String calculatorMinus(int num1, int num2) {
         int res = num1 - num2;
-        return num1 + " - " + num2 + " = " + res;
+        return num1 + " - " + num2 + "  = " + res;
     }
 
     public String calculatorMultiply(int num1, int num2) {
