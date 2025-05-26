@@ -30,7 +30,7 @@ public class CalculatorServiceImpl {
             int res = num1 / num2;
             return num1 + " / " + num2 + " = " + res;
         }else {
-            return "На ноль делить нельзя";
+            return "На 0 делить нельзя!!!";
         }
 
     }
