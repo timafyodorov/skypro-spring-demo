@@ -29,9 +29,9 @@ public class CalculatorServiceImpl {
         if (num2 != 0) {
             int res = num1 / num2;
             return num1 + " / " + num2 + " = " + res;
-        }else {
+        } else {
             return "На 0 делить нельзя!!!";
         }
 
     }
- }
+}
